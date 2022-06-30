@@ -1,0 +1,231 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333;;
+}
+
+#main {
+    margin: 25px 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+header {
+    text-align: center;
+}
+
+#title {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+#img-div {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    height: auto;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+    text-align: center;
+}
+
+#tribute-info {
+    max-width: 590px;
+    margin: 0 auto;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+section ul {
+    text-align: justify;
+}
+
+section ul li {
+    line-height: 1.5;
+    padding: 10px 0;
+}
+
+section blockquote {
+    max-width: 545px;
+    margin: 0 auto;
+}
+
+section p, cite {
+    text-align: justify;
+    font-style: italic;
+    line-height: 1.7;
+}
+
+section h3 {
+    text-align: center;
+    margin: 30px auto;
+}
+
+#tribute-link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #663366;
+
+}   
+    
+/* Mobile */
+
+@media screen and (max-width: 375px) {
+
+    #title {
+        font-size: 30px;
+    }
+
+    section p, cite {
+        text-align: justify;
+        letter-spacing: -1px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    #image {
+        display: block;
+        max-width: 100%;
+
+    }
+
+    #img-caption {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    section h2 {
+        font-size: 16px;
+        padding-bottom: 0;
+    }
+
+    section ul {
+        padding: 15px;
+    }
+
+    section p, cite {
+        text-align: justify;
+    }
+
+    section h3 {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+}
+
+/* Laptop L */
+
+@media screen and (min-width: 1440px) {
+
+    #title {
+        font-size: 55px;
+    }
+
+    header p {
+        font-size: 25px;
+    }
+
+    #image{
+        display: block;
+        max-width: 2514px;
+        width: 100%;
+    }
+
+    #img-caption {
+        font-size: 22px;
+        text-align: center;
+        margin: 25px 0 10px 0;
+    }
+
+    section h2 {
+        font-size: 25px;
+    }
+
+    #tribute-info {
+        max-width: 750px;
+        margin: 0 auto;
+        font-size: 22px;
+    }
+
+    #tribute-info blockquote {
+        max-width: 2000px;
+        margin: 0 auto;
+    }
+
+    section h3 {
+        font-size: 25px;
+        margin: 50px auto;
+    }
+}
+
+/* 4k */
+
+@media screen and (min-width: 2000px) {
+
+    #title {
+        font-size: 100px;
+    }
+
+    header p {
+        font-size: 45px;
+    }
+
+    #image{
+        display: block;
+        max-width: 2514px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #img-caption {
+        font-size: 40px;
+        text-align: center;
+        margin: 30px 0 15px 0;
+    }
+
+    section h2 {
+        font-size: 50px;
+    }
+
+    #tribute-info {
+        max-width: 1500px;
+        margin: 0 auto;
+        font-size: 40px;
+    }
+
+    #tribute-info blockquote {
+        max-width: 2000px;
+        margin: 0 auto;
+    }
+
+    section h3 {
+        font-size: 45px;
+        margin: 50px auto;
+    }
+}
